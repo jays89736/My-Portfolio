@@ -216,12 +216,16 @@
         </div>
     </section>
 
-    <section class="contact">
-        <h2>Get in Touch</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Tell me about your project..." required></textarea>
+   <section class="contact">
+        <h2>Get in Touch / Book a Shoot</h2>
+        <form class="contact-form" action="https://formspree.io/f/xvzwjyga" method="POST">
+            
+            <input type="text" name="name" placeholder="Your Name" required>
+            
+            <input type="email" name="email" placeholder="Your Email" required>
+            
+            <textarea name="message" placeholder="Tell me about your project or booking dates..." required></textarea>
+            
             <button type="submit">Send Message</button>
         </form>
     </section>
